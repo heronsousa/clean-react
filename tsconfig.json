@@ -19,7 +19,12 @@
         "incremental": true,
         "allowSyntheticDefaultImports": true,
         "rootDir": "src",
-        "baseUrl": "src"
+        "baseUrl": "src",
+        "paths": {
+            "@/*": [
+                "*"
+            ]
+        }
     },
     "include": [
         "src"
